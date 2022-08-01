@@ -43,7 +43,7 @@ p {
 .bloqueMother {
   width: 250px;
   height: 500px;
-  margin: 700px;
+  margin: 25px;
   padding: 10px;
   border: 2.5px;
   border-style: solid;
@@ -65,7 +65,7 @@ p {
 .bloqueFuente {
   width: 250px;
   height: 500px;
-  margin: 700px;
+  margin: 25px;
   padding: 10px;
   border: 2.5px;
   border-style: solid;
@@ -87,7 +87,7 @@ p {
 .bloqueGabo {
   width: 250px;
   height: 500px;
-  margin: 700px;
+  margin: 25px;
   padding: 10px;
   border: 2.5px;
   border-style: solid;
@@ -109,7 +109,7 @@ p {
 .bloqueGpu {
   width: 250px;
   height: 500px;
-  margin: 700px;
+  margin: 25px;
   padding: 10px;
   border: 2.5px;
   border-style: solid;
@@ -119,7 +119,7 @@ p {
 
 .contenedor {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   flex: 200px;
 }
