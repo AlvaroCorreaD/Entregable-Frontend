@@ -30,7 +30,6 @@ p {
 }
 
 .bloqueMicro {
-  display: block;
   width: 250px;
   height: 500px;
   margin: 25px;
@@ -42,7 +41,6 @@ p {
 }
 
 .bloqueMother {
-  display: inline-block;
   width: 250px;
   height: 500px;
   margin: 700px;
@@ -54,7 +52,6 @@ p {
 }
 
 .bloqueRam {
-  display: block;
   width: 250px;
   height: 500px;
   margin: 25px;
@@ -66,7 +63,6 @@ p {
 }
 
 .bloqueFuente {
-  display: inline-block;
   width: 250px;
   height: 500px;
   margin: 700px;
@@ -78,7 +74,6 @@ p {
 }
 
 .bloqueCooler {
-  display: block;
   width: 250px;
   height: 500px;
   margin: 25px;
@@ -90,7 +85,6 @@ p {
 }
 
 .bloqueGabo {
-  display: inline-block;
   width: 250px;
   height: 500px;
   margin: 700px;
@@ -102,7 +96,6 @@ p {
 }
 
 .bloqueSsd {
-  display: block;
   width: 250px;
   height: 500px;
   margin: 25px;
@@ -114,7 +107,6 @@ p {
 }
 
 .bloqueGpu {
-  display: inline-block;
   width: 250px;
   height: 500px;
   margin: 700px;
@@ -127,8 +119,7 @@ p {
 
 .contenedorPadre {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: center;
+  flex-direction: inline-block;
+  flex-wrap: wrap;
+  flex: 200px;
 }
