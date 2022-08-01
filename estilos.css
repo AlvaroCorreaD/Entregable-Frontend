@@ -117,9 +117,9 @@ p {
   background-color: rgba(0, 0, 0, 0.651);
 }
 
-.contenedorPadre {
+.contenedor {
   display: flex;
-  flex-direction: inline-block;
+  flex-direction: row;
   flex-wrap: wrap;
   flex: 200px;
 }
