@@ -1,6 +1,5 @@
 head,
 body {
-  background-color: #ff000080;
   background-image: url("https://wallpaperaccess.com/full/4625705.jpg");
   width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -20,106 +19,117 @@ h2 {
 }
 
 p {
+  text-align: center;
+}
+
+div {
+  justify-content: space-around;
+}
+
+ul,
+li {
   text-align: left;
 }
 
 .bloqueLista1 {
   background-color: rgba(0, 0, 0, 0.651);
+  border-color: rgb(255, 255, 255);
+  border: 2.5px;
+  border-style: solid;
   width: 250px;
   margin: 25px;
 }
 
 .bloqueMicro {
-  width: 250px;
-  height: 500px;
-  margin: 25px;
-  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.651);
+  border-color: rgb(255, 255, 255);
   border: 2.5px;
   border-style: solid;
-  border-color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.651);
+  width: 50%;
+  margin: 25px;
+  margin-left: 25%;
+  padding: 25px;
 }
 
 .bloqueMother {
-  width: 250px;
-  height: 500px;
-  margin: 25px;
-  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.651);
+  border-color: rgb(255, 255, 255);
   border: 2.5px;
   border-style: solid;
-  border-color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.651);
+  width: 50%;
+  margin: 25px;
+  margin-left: 25%;
+  padding: 25px;
 }
 
 .bloqueRam {
-  width: 250px;
-  height: 500px;
-  margin: 25px;
-  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.651);
+  border-color: rgb(255, 255, 255);
   border: 2.5px;
   border-style: solid;
-  border-color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.651);
+  width: 50%;
+  margin: 25px;
+  margin-left: 25%;
+  padding: 25px;
 }
 
 .bloqueFuente {
-  width: 250px;
-  height: 500px;
-  margin: 25px;
-  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.651);
+  border-color: rgb(255, 255, 255);
   border: 2.5px;
   border-style: solid;
-  border-color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.651);
+  width: 50%;
+  margin: 25px;
+  margin-left: 25%;
+  padding: 25px;
 }
 
 .bloqueCooler {
-  width: 250px;
-  height: 500px;
-  margin: 25px;
-  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.651);
+  border-color: rgb(255, 255, 255);
   border: 2.5px;
   border-style: solid;
-  border-color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.651);
+  width: 50%;
+  margin: 25px;
+  margin-left: 25%;
+  padding: 25px;
 }
 
 .bloqueGabo {
-  width: 250px;
-  height: 500px;
-  margin: 25px;
-  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.651);
+  border-color: rgb(255, 255, 255);
   border: 2.5px;
   border-style: solid;
-  border-color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.651);
+  width: 50%;
+  margin: 25px;
+  margin-left: 25%;
+  padding: 25px;
 }
 
 .bloqueSsd {
-  width: 250px;
-  height: 500px;
-  margin: 25px;
-  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.651);
+  border-color: rgb(255, 255, 255);
   border: 2.5px;
   border-style: solid;
-  border-color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.651);
+  width: 50%;
+  margin: 25px;
+  margin-left: 25%;
+  padding: 25px;
 }
 
 .bloqueGpu {
-  width: 250px;
-  height: 500px;
-  margin: 25px;
-  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.651);
+  border-color: rgb(255, 255, 255);
   border: 2.5px;
   border-style: solid;
-  border-color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.651);
+  width: 50%;
+  margin: 25px;
+  margin-left: 25%;
+  padding: 25px;
 }
 
 .contenedor {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  flex: 200px;
+  flex-flow: column wrap;
+  text-align: center;
 }
