@@ -41,10 +41,20 @@ li {
 
 h1:hover,
 h2:hover {
-  font-size: 250%;
+  transform: scale(1.1);
+  transition: 2s ease;
   color: cyan;
   font-weight: bolder;
   text-decoration: underline cyan;
+}
+
+figure:hover {
+  transform: scale(1.1);
+  transition: 2s ease;
+}
+
+span.destacado {
+  color: cyan;
 }
 
 .bloqueLista1 {
