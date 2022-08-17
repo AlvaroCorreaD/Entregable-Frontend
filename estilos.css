@@ -12,23 +12,39 @@ h1 {
   background-color: rgba(0, 0, 0, 0.651);
   width: 300px;
   margin: 0 auto;
+  padding: 25px;
 }
 
-h2 {
+.introduccion {
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.651);
+  width: 300px;
+  margin: 0 auto;
+  padding: 25px;
 }
 
+h2,
+h1 {
+  text-align: center;
+  text-decoration: underline white;
+}
+
+div > p,
 p {
   text-align: center;
-}
-
-div {
-  justify-content: space-around;
 }
 
 ul,
 li {
   text-align: left;
+}
+
+h1:hover,
+h2:hover {
+  font-size: 250%;
+  color: cyan;
+  font-weight: bolder;
+  text-decoration: underline cyan;
 }
 
 .bloqueLista1 {
@@ -38,98 +54,76 @@ li {
   border-style: solid;
   width: 250px;
   margin: 25px;
-}
-
-.bloqueMicro {
-  background-color: rgba(0, 0, 0, 0.651);
-  border-color: rgb(255, 255, 255);
-  border: 2.5px;
-  border-style: solid;
-  width: 50%;
-  margin: 25px;
-  margin-left: 25%;
   padding: 25px;
 }
 
-.bloqueMother {
+.contenedorMicroMother {
   background-color: rgba(0, 0, 0, 0.651);
-  border-color: rgb(255, 255, 255);
-  border: 2.5px;
-  border-style: solid;
-  width: 50%;
-  margin: 25px;
-  margin-left: 25%;
-  padding: 25px;
-}
-
-.bloqueRam {
-  background-color: rgba(0, 0, 0, 0.651);
-  border-color: rgb(255, 255, 255);
-  border: 2.5px;
-  border-style: solid;
-  width: 50%;
-  margin: 25px;
-  margin-left: 25%;
-  padding: 25px;
-}
-
-.bloqueFuente {
-  background-color: rgba(0, 0, 0, 0.651);
-  border-color: rgb(255, 255, 255);
-  border: 2.5px;
-  border-style: solid;
-  width: 50%;
-  margin: 25px;
-  margin-left: 25%;
-  padding: 25px;
-}
-
-.bloqueCooler {
-  background-color: rgba(0, 0, 0, 0.651);
-  border-color: rgb(255, 255, 255);
-  border: 2.5px;
-  border-style: solid;
-  width: 50%;
-  margin: 25px;
-  margin-left: 25%;
-  padding: 25px;
-}
-
-.bloqueGabo {
-  background-color: rgba(0, 0, 0, 0.651);
-  border-color: rgb(255, 255, 255);
-  border: 2.5px;
-  border-style: solid;
-  width: 50%;
-  margin: 25px;
-  margin-left: 25%;
-  padding: 25px;
-}
-
-.bloqueSsd {
-  background-color: rgba(0, 0, 0, 0.651);
-  border-color: rgb(255, 255, 255);
-  border: 2.5px;
-  border-style: solid;
-  width: 50%;
-  margin: 25px;
-  margin-left: 25%;
-  padding: 25px;
-}
-
-.bloqueGpu {
-  background-color: rgba(0, 0, 0, 0.651);
-  border-color: rgb(255, 255, 255);
-  border: 2.5px;
-  border-style: solid;
-  width: 50%;
-  margin: 25px;
-  margin-left: 25%;
-  padding: 25px;
-}
-
-.contenedor {
+  height: 10%;
+  margin: 0 auto;
+  width: 95%;
   display: flex;
-  flex-flow: column wrap;
-  text-align: center;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.bloqueMicro,
+.bloqueMother {
+  border: 2.5px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  width: 40%;
+  margin: 25px;
+  padding: 25px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.contenedorRamFuente {
+  background-color: rgba(0, 0, 0, 0.651);
+  height: 10%;
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.bloqueRam,
+.bloqueFuente {
+  border: 2.5px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  width: 40%;
+  margin: 25px;
+  padding: 25px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.contenedorCGSG {
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.651);
+  width: 95%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.bloqueCooler,
+.bloqueGabo,
+.bloqueSsd,
+.bloqueGpu {
+  border-color: rgb(255, 255, 255);
+  border: 2.5px;
+  border-style: solid;
+  height: 5%;
+  width: 20%;
+  margin: 25px;
+  padding: 25px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
